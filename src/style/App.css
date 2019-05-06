@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 4s alternate;
+  height: 35vmin;
+}
+
+.Sprite-pkmn {
+  animation: jumping-pkmn infinite 0.3s alternate;
+  margin:0;
+  top: 5px;
+  position: relative
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.grid-pkmn{
+  margin:0px 40px;
+}
+
+.labelTitle {
+  font-family: "Roboto";
+  text-transform: capitalize;
+  font-weight:500;
+  border-radius:5px;
+  color:black;
+  padding:3px 15px 5px 15px;
+  background-color: white;
+  margin-right:25px;
+  white-space: nowrap;
+}
+
+.labelValue {
+  font-family: "Open Sans";
+  display:inline-flex;
+  border-radius:10px;
+  border:3px solid white;
+  padding:0 30px 0 0;
+  margin: 10px 1%;
+}
+
+.value {
+  font-size:28px;
+  font-weight:400;
+}
+
+
+.spriteDetails{
+  width: 150px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+h2 {
+  line-height: 0.5em;
+  padding: 0;
+  margin-top: 0;
+}
+
+h3 {
+  line-height: 0.1em;
+  margin-top: 0;
+}
+
+p {
+  margin:12px;
+}
+
+span {display: inline-block;}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.type {
+  margin:12px 0;
+  font-family: "Open Sans";
+  border-radius: 30px;
+  width:110px;
+  height:40px;
+  border:3px solid white;
+  text-transform: capitalize;
+  text-shadow: 1px 2px 1px #232323,0px -1px 1px #494949,-1px 0px 1px #494949,1px 0px 1px #494949;
+}
+
+.normal {
+  background-color: #c1c1c1; 
+}
+
+.poison {
+  background-color: #9b62ba;  
+}
+
+.psychic {
+  background-color: #e164ea; 
+}
+
+.grass {
+  background-color: #a0e87f; 
+}
+
+.ground {
+  background-color: #e8d986; 
+}
+
+.ice {
+  background-color: #affcff; 
+}
+
+.fire {
+  background-color: #ff6f56; 
+}
+
+.rock {
+  background-color: #ccc08a; 
+}
+
+.dragon {
+  background-color: #a78fea; 
+}
+
+.water {
+  background-color: #65bff7; 
+}
+
+.bug {
+  background-color: #d3e062; 
+}
+
+.dark {
+  background-color: #8e684e; 
+}
+
+.fighting {
+  background-color: #b26b5e; 
+}
+
+.ghost {
+  background-color: #6a7db7; 
+}
+
+.steel {
+  background-color: #e8e8e8; 
+}
+
+.flying {
+  background-color: #93b4f2; 
+}
+
+.electric {
+  background-color: #ffe81e; 
+}
+
+.fairy {
+  background-color: #f9ceff; 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(0.97);
+  }
+}
+
+@keyframes jumping-pkmn {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(3px);
+  }
+}
